@@ -1,0 +1,43 @@
+return {
+    'tpope/vim-sleuth',
+    { 'numToStr/Comment.nvim', opts = {} },
+    {
+        'lewis6991/gitsigns.nvim',
+        opts = {
+            signs = {
+                add = { text = '+' },
+                delete = { text = '_' },
+                change = { text = '~' },
+                topdelete = { text = '‾' },
+                changedelete = { text = '~' },
+            },
+        },
+    },
+    {
+        "ellisonleao/gruvbox.nvim",
+        priority = 1000,
+        config = true,
+        opts = {}, 
+    },
+    {
+        'nvim-telescope/telescope.nvim', tag = '0.1.8',
+        dependencies = { 'nvim-lua/plenary.nvim' }
+    },
+    {
+        'nvim-treesitter/nvim-treesitter',
+        build = ':TSUpdate'
+    },
+    {
+        'nvim-treesitter/playground',
+    },
+    {
+        'theprimeagen/harpoon',
+    },
+    {
+        'mbbill/undotree',
+    },
+    {
+        'tpope/vim-fugitive'
+    },
+}
+
