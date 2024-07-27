@@ -56,6 +56,8 @@ return {
     { "saadparwaiz1/cmp_luasnip" },
     { "j-hui/fidget.nvim" },
 
+    { "christoomey/vim-tmux-navigator" },
+
     {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v3.x",
@@ -63,6 +65,11 @@ return {
             "nvim-lua/plenary.nvim",
             "MunifTanjim/nui.nvim",
         },
-    }
+    },
+
+    {
+        'nvim-lualine/lualine.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
 }
 
