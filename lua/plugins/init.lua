@@ -58,6 +58,8 @@ return {
 
     { "christoomey/vim-tmux-navigator" },
 
+    { "simrat39/rust-tools.nvim" },
+
     {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v3.x",
