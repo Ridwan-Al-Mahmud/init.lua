@@ -5,10 +5,8 @@
 - cmake
 - NodeJS
 ##### Clone this repo to your local machine...
-```
-
+```git
 git clone https://github.com/ridwanalmahmud/init.lua.git ~/.config/nvim
-
 ```
 *Do not change the path(~/.config/nvim)*.       
 
